@@ -21,13 +21,14 @@ public class Application implements CommandLineRunner {
 
     @Autowired
     private CacheManager cacheManager;
-
+    
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
     }
 
     @Override
     public void run(String... args) throws Exception {
+     
         log.info("Spring Boot Ehcache 2 Caching Example Configuration");
         log.info("using cache manager: " + cacheManager.getClass().getName());
 

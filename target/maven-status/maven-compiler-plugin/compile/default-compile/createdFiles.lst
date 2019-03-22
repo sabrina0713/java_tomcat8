@@ -1,3 +1,6 @@
+hello\SimpleCacheLoader.class
+hello\SimpleCacheEntryListener.class
 hello\MusicService.class
 hello\HelloController.class
 hello\Application.class
+hello\SimpleEntryProcessor.class
